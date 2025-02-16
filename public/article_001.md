@@ -4,12 +4,16 @@ tags:
   - container
   - Container-Runtime
 private: false
-updated_at: '2025-02-16T19:37:04+09:00'
+updated_at: '2025-02-16T19:51:21+09:00'
 id: f22832e7f412375ef8a5
 organization_url_name: null
 slide: false
 ignorePublish: false
 ---
+## シリーズ一覧
+1. 作って理解するコンテナ#1 - 導入編　← 今回の記事
+2. [作って理解するコンテナ#2 - プロセス編](https://qiita.com/pyxgun/items/341d2623a9d33f68e081)
+
 ## はじめに
 DockerやPodman、Kubernetesなど、様々なコンテナ管理のツールがあり、アプリケーション開発基盤やCIにおけるRunnerなどでこれらのツールを使っている方はたくさんいるかと思います。  
 では、これらが管理しているコンテナがどのように起動されているのか？イメージを利用してコンテナ起動するとは？といった、コンテナ"自体"の仕組みは知っていますか？  
