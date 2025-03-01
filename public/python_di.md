@@ -702,7 +702,7 @@ AttributeError: 'CustomKeyboard' object has no attribute 'press_key'
 
 この問題を解決するには、依存する側と依存される側が共通の規則に則って実装する必要があります。  
 設計書などに開発規則を記載することも一つの手ですが、コード実装においても規則による制約を設けることが一番良いです。  
-これを実現する方法が DI:Dependency Inversion Principle、**依存性逆転の原則** です。  
+これを実現する方法が DIP:Dependency Inversion Principle、**依存性逆転の原則** です。  
 
 ### アプリケーション実装
 DIPを使ってアプリケーションを実装してみます。  
@@ -723,7 +723,7 @@ class InterfaceMouse(metaclass=ABCMeta):
     def click_left_button(self) -> str:
         pass
     
-    @ abstractmethod
+    @abstractmethod
     def click_right_button(self) -> str:
         pass
 # =================================>
@@ -798,7 +798,7 @@ class InterfaceMouse(metaclass=ABCMeta):
     def click_left_button(self) -> str:
         pass
     
-    @ abstractmethod
+    @abstractmethod
     def click_right_button(self) -> str:
         pass
 ```
@@ -1036,7 +1036,7 @@ class InterfaceMouse(metaclass=ABCMeta):
     def click_left_button(self) -> str:
         pass
     
-    @ abstractmethod
+    @abstractmethod
     def click_right_button(self) -> str:
         pass
 
