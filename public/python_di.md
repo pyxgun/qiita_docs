@@ -1,13 +1,13 @@
 ---
 title: Pythonで始めるDI/DIP
 tags:
-  - 'python'
-  - 'DI'
-  - 'DIP'
-  - 'pytest'
+  - Python
+  - DI
+  - pytest
+  - DIP
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-03-01T18:40:59+09:00'
+id: 05102ec013c5b845f093
 organization_url_name: null
 slide: false
 ignorePublish: false
